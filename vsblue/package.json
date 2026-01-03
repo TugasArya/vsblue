@@ -1,0 +1,63 @@
+{
+  "name": "vsblue",
+  "displayName": "vsblue Theme",
+  "description": "blue color theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "4rya",  
+  "author": {
+    "name": "Arya",
+    "email": "aryahermit@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vsblue theme",
+    "color-theme",
+    "skyblue",
+    "blue",
+    "light",
+    "soft",
+    "pastel",
+    "Arya extention",
+    "Arya theme",
+    "biru"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#D9F0FF",
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TugasArya/vsblue.git"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/license-MIT-green.svg",
+      "href": "LICENSE",
+      "description": "License"
+    }
+  ],
+  
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "SkyBlue Theme",
+        "uiTheme": "vs",
+        "path": "./themes/VSblue.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
